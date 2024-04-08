@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e9e9e9;
+}
+
+section {
+    padding: 20px;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    clear: both;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+#education li {
+    margin-bottom: 10px;
+}
+
+#education li strong {
+    font-weight: bold;
+}
+#publications {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#publications ul {
+    list-style: none;
+    padding: 0;
+}
+
+#publications li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#publications .author {
+    font-weight: bold;
+    color: #17a2b8; /* Soft blue for highlighting the author's name */
+}
+
+#publications .title {
+    font-style: italic;
+    color: #495057; /* Dark grey for the title */
+    text-decoration: none; /* Removes underline from links */
+}
+
+#publications .title:hover {
+    text-decoration: underline; /* Adds underline on hover for better link indication */
+    color: #007bff; /* Changes color on hover to indicate interactivity */
+}
+
+
+#publications .journal {
+    font-weight: bold;
+    color: #6c757d; /* Lighter grey for the journal name */
+}
+
+#publications .year {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #343a40;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.85em;
+}
+
+#publications sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#publications sup.asterisk {
+    color: #dc3545; /* Distinct color for asterisk */
+}
+
+#publications sup.hash {
+    color: #28a745; /* Distinct color for hash */
+}
+
+#publications .note {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.publications .scholar-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.publications .scholar-link a {
+    color: #007bff; /* Or any color that suits your design */
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+.publications .scholar-link a:hover {
+    text-decoration: underline; /* Re-adds underline on hover for link interaction */
+}
+
+#teaching-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+#teaching-experience li {
+    margin-bottom: 15px;
+}
+
+#teaching-experience strong {
+    font-weight: bold;
+}
